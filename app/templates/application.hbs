@@ -1,3 +1,7 @@
-<h2 id="title">Welcome to Ember</h2>
-
+<div class = "container">
+<h1> Welcome to the queue.  Ask your questions if you dare</h1>
+{{#link-to 'teacher'}}<button class = "btn btn-success">Teacher</button>{{/link-to}}
+{{#link-to 'student'}}<button class = "btn btn-info">Student</button>{{/link-to}}
+{{#link-to 'index'}}<button class = "btn btn-warning">Home</button>{{/link-to}}
 {{outlet}}
+</div>

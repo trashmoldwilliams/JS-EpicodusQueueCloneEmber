@@ -1,0 +1,12 @@
+<h2>Question List</h2>
+{{#each questions as |question|}}
+{{question.question}}
+<br />
+{{question.author}}
+<br />
+{{question.location}}
+
+<h1><span class="time">{{timeWaited}}m</span></h1>
+<button {{action 'delete' question}} class = "btn btn-danger">Delete Question</button>
+<hr />
+{{/each}}

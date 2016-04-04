@@ -1,0 +1,9 @@
+<h3>Enter your question here</h3>
+<form >
+  {{textarea rows = "4" cols = "50" value=question id="question" placeholder = "Whats Your Question?  Enter It Here!!"}}
+  <br />
+  {{input value=author id="author" placeholder = "Got A Name?"}}
+  {{input value=location id="location" placeholder = "Where You Located?"}}
+
+  <button {{action 'save1'}}>Save</button>
+</form>
