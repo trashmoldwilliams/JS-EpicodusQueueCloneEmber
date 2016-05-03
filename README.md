@@ -1,7 +1,6 @@
 # Queue
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An ember application created to mimic to functionality of the Epicodus help queue. This includes loading student questions into a database that can eventually be closed upon being helped. The general structure is in place, but there is no proper implementation of a timer specifying how long it has been since a question has been asked.
 
 ## Prerequisites
 
@@ -39,10 +38,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -50,4 +45,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
